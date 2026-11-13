@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Driver Drowsiness Detection System
 
 A local webcam application with a dark Tkinter dashboard, real facial landmark detection, continuous eye-closure timing, laptop audio alerts, and a **software-only vehicle simulation**. All application logic is in `main.py`. No Arduino, relay, motor, external assets, audio files, or separately downloaded model files are required.
@@ -134,3 +135,7 @@ Real webcam detection and audible output were not verified: OpenCV and MediaPipe
 - This is a college demonstration and portfolio application, **not a validated road safety device**. It cannot guarantee detection of sleepiness or prevent accidents. It monitors a single face, does not identify the driver, and does not replace rest or safe driving practices.
 
 Reference API: [MediaPipe Face Mesh](https://github.com/google-ai-edge/mediapipe/blob/v0.10.21/docs/solutions/face_mesh.md). Defaults reflect the supplied report concept: IR sensor → webcam landmarks, buzzer → laptop audio, relay/motor → software status indicators.
+=======
+# Driver-Drowsiness-Detection
+Real-time Driver Drowsiness Detection System using Python, OpenCV and MediaPipe.
+>>>>>>> a3cb162ef809227e9c059d56307de13d368a348d
