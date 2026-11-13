@@ -1,0 +1,12 @@
+# Recommended: CPython 3.11.x, Windows x86-64 (not Python 3.13+).
+# Face Mesh and its models are bundled in this legacy MediaPipe release.
+# Install only opencv-contrib-python; do not also install opencv-python/headless.
+mediapipe==0.10.21
+numpy==1.26.4
+opencv-contrib-python==4.10.0.84
+Pillow==11.1.0
+# Pin MediaPipe's JAX dependencies to releases compatible with NumPy 1.x.
+jax==0.4.35
+jaxlib==0.4.35
+# Windows uses built-in winsound. Pygame is only a non-Windows fallback.
+pygame==2.6.1; sys_platform != "win32"
